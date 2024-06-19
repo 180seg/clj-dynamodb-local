@@ -53,7 +53,6 @@ A shutdown hook will be added to shutdown DynamoDB Local when the JVM exits.
 
 ```shell
 $ lein release :patch
-$ lein deploy releases
 ```
 
 ### Configuration
