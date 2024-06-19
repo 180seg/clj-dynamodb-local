@@ -7,7 +7,9 @@ This starts an instance of DynamoDB Local (http://docs.aws.amazon.com/amazondyna
 
 ## Usage
 
-[![Clojars Project](http://clojars.org/clj-dynamodb-local/latest-version.svg)](http://clojars.org/clj-dynamodb-local)
+```clojure
+:clj-dynamodb-local/clj-dynamodb-local {:mvn/version "0.1.4"}
+```
 
 #### Leiningen
 
@@ -46,6 +48,13 @@ Add the `dynamodb-local` boot task into your build pipeline at the appropriate p
 ```
 
 A shutdown hook will be added to shutdown DynamoDB Local when the JVM exits.
+
+### Deploy (local)
+
+```shell
+$ lein release :patch
+$ lein deploy releases
+```
 
 ### Configuration
 

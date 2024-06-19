@@ -4,9 +4,10 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :eval-in-leiningen true
+  :plugins [[s3-wagon-private "1.3.5"]]
   :dependencies [[boot/core "2.6.0" :scope "provided"]
                  [environ "1.0.0"]
                  [medley "1.0.0" :scope "test"]
                  [net.lingala.zip4j/zip4j "2.11.5"]]
-  :deploy-repositories [["releases" {:url "https://clojars.org/repo"
-                                     :creds :gpg}]])
+  :repositories [["releases" {:url "s3p://180s-maven-repo/release"
+                              :no-auth true}]])
