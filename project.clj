@@ -7,6 +7,6 @@
   :dependencies [[boot/core "2.6.0" :scope "provided"]
                  [environ "1.0.0"]
                  [medley "1.0.0" :scope "test"]
-                 [net.lingala.zip4j/zip4j "1.3.2"]]
+                 [net.lingala.zip4j/zip4j "2.11.5"]]
   :deploy-repositories [["releases" {:url "https://clojars.org/repo"
                                      :creds :gpg}]])

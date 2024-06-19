@@ -5,7 +5,7 @@
   (:import [java.io File]
            [java.nio.file Files Paths LinkOption Path]
            [java.nio.file.attribute FileAttribute]
-           [net.lingala.zip4j.core ZipFile]))
+           [net.lingala.zip4j ZipFile]))
 
 (def ^:private download-url "https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.zip")
 
