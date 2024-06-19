@@ -10,4 +10,5 @@
                  [medley "1.0.0" :scope "test"]
                  [net.lingala.zip4j/zip4j "2.11.5"]]
   :repositories [["releases" {:url "s3p://180s-maven-repo/release"
-                              :no-auth true}]])
+                              :no-auth true
+                              :sign-releases false}]])
