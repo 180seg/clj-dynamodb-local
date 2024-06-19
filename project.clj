@@ -1,4 +1,4 @@
-(defproject i80/clj-dynamodb-local "0.1.5"
+(defproject i80/clj-dynamodb-local "0.1.6-SNAPSHOT"
   :description "A Leiningen plugin and boot task for providing a local DynamoDB instance"
   :url "https://github.com/dmcgillen/clj-dynamodb-local"
   :license {:name "Eclipse Public License"
